@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Homepage</title>
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+
+<!--Header image-->
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+.hero-image {
+    background-image: linear-gradient(rgba(100, 83, 90, 0.397), 
+	rgba(7, 7, 7, 0.5)), url("image/background.jpg");
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+.hero-text {
+    text-align:center;
+    position:absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: rgb(240, 238, 238);
+  background-color: rgb(152, 199, 189);
+  text-align: center;
+  cursor: pointer;
+}
+  
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+</style>
+
+<!--End of Header image-->
+
+<!--Navigation Bar Style-->
+<head>
+<style>
+body{
+  margin: o;
+  padding:0;
+  background: #ECE2E1;
+}
+
+nav{
+  width: 100%;
+  background: #D3E0DC;
+  overflow: auto;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0 0 0 150px;
+  padding: 0;
+  border: 1px solid #e7e7e7;
+  background-color: #D3E0DC;
+}
+
+li {
+  float: left;
+} 
+
+li a:hover:not(.active) {
+  background-color: #FCD1D1;
+} 
+
+li a.active {
+  color: rgb(255, 255, 255);
+  background-color: #5F7161;
+}
+
+nav a{
+  width: 100px;
+  display: block;
+  padding: 20px 15px;
+  text-decoration: none;
+  color: #8d8484;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+<!--Navigation Bar-->
+<nav>
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="aboutme.html">About Me</a></li>
+  <li><a href="education.html">Education</a></li>
+  <li><a href="family.html">Family</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+<!-- Header -->
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Welcome to my website!</h1>
+  </div>
+</div>
+
+<!-- Quote section -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1 style="color: #97BFB4;">Song of the day...</h1>
+      <h5 class="w3-padding-32"><i>
+	  <pre>"Sometimes it's dark in my head
+And I don't know what to say
+I don't believe in myself
+It's like I lost my own way
+
+And I worry about all the things
+ that I want to do with my life
+I can't find a way out, until i remember
+
+Yeah my mama told me
+That I can be whatever I want
+And my dad told me
+When you grow up just do what you want
+Cause we don't know how long we got
+Yeah we don't know when things go wrong
+
+So stop overthinking
+Don't overthink it
+Don't overthink it
+Don't overthink it
+
+When I was 16 years old
+I barely knew who I was
+I changed my hair, I changed my ways
+And people like to talk
+
+I used to feel like a ghost
+I never went to parties
+I just went my own way
+And in the end I'm ok
+
+Yeah my mama told me
+That I can be whatever i want
+And my dad told me
+When you grow up just do what you want
+Cause we don't know how long we got
+Yeah we don't know when things go wrong
+
+So stop overthinking
+Don't overthink it
+Don't overthink it
+Don't overthink it
+
+Yeah my mama told me
+That I can be whatever i want
+And my dad told me
+When you grow up just do what you want" </pre>
+	  
+</div>
+
+<!--audio album style-->
+<style>
+img {
+    border: 2px solid rgb(158, 241, 203);
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    position:relative;
+}
+      
+img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+</style>
+
+<!--Album section-->
+<div class="w3-third w3-center">
+  <a target="_blank" href="image/song.jpg">
+    <img src="image/song.jpg" style="width: 100px;"></a>
+<audio controls>
+  <source src="audio/yaeow.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+
+<style>
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: right;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: rgb(77, 131, 123);
+  color: rgb(221, 131, 131);
+}
+
+.flip-card-back {
+  background-color: #F7FFE5;
+  color: black;
+  transform: rotateY(180deg);
+}       
+</style>
+<!-- About me section -->
+<div class="w3-row">
+<div class=""w3-third w3-center w3-padding-medium">
+<br>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="image/na.jpg" alt="Avatar" style="width:300px;height:300px;">
+      </div>
+      <div class="flip-card-back">
+        <h1>Hello!</h1> 
+        <p>It's me Nurul!</p> 
+		<p>"Don't Overthink It" by Yaeow is one of my favorite songs, since it brings me so much comfort. I will play this song and enjoy the words whenever I find myself worrying excessively about the future, as this song can make me feel better.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!--End of flipcard section-->
+
+
+<div style="clear: both; justify-content: baseline;"></div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+    <div class="w3-content w3-container w3-padding-50" id="about"></div>
+
+</body>
+</html>
